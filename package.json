@@ -3,15 +3,15 @@
     "version": "0.3.7",
     "description": "Module to invoke salesforce.com services",
     "author": "Kidozen <support@kidozen.com>",
-    "contributors": [ 
+    "contributors": [
         {
-        "name": "Silvio Massari",
-        "email": "silvio@kidozen.com"
+            "name": "Silvio Massari",
+            "email": "silvio@kidozen.com"
         },
         {
-        "name": "Christian Carnero",
-        "email": "chris@kidozen.com"
-        }  
+            "name": "Christian Carnero",
+            "email": "chris@kidozen.com"
+        }
     ],
     "main": "index.js",
     "scripts": {
@@ -28,15 +28,15 @@
     ],
     "license": "MIT",
     "dependencies": {
-        "node-salesforce": "0.6.3",
-        "mem-cache" : "0.0.1",
+        "jsonwebtoken": "0.2.0",
+        "mem-cache": "0.0.4",
+        "node-salesforce": "0.8.0",
         "node-uuid": "1.4.0",
-        "request": "2.34.0",
-        "jsonwebtoken": "0.2.0"
+        "request": "2.34.0"
     },
     "devDependencies": {
-        "mocha" : "1.11.0",
+        "mocha": "1.11.0",
         "assert": "0.4.9",
-        "nock"  : "0.18.2"
+        "nock": "0.18.2"
     }
 }
